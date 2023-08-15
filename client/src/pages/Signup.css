@@ -1,0 +1,93 @@
+body{
+    background-color: rgb(241, 241, 241);
+}
+.container-signup{
+    background-color: rgb(255, 255, 255);
+    width: 320px;
+    padding: 30px;
+    margin: 50px auto;
+    height: 340px;
+}
+.container-signup h2{
+    font-size: 22px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container-signup p{
+    margin-top: 10px;
+    text-align: center;
+    font-size: 15px;
+    color: #7d7d7d;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.form{
+    background-color: rgb(254, 254, 254);
+    text-align: center;
+}
+.container-signup input[type=text], 
+.container-signup input[type=password], 
+.container-signup input[type=email]{
+    font-weight: lighter;
+    width: 95%;
+    padding: 7px 8px;
+    margin: 5px 0;
+    display: inline-block;
+    border-style: none;
+    border-radius: 5px;
+    background-color: #EBF3F5;
+}
+.container-signup input[type=text]::placeholder,
+.container-signup input[type=password]::placeholder, 
+.container-signup input[type=email]::placeholder{
+    font-size: 13.5px;
+}
+.container-signup input[type=text]:focus, 
+.container-signup input[type=password]:focus, 
+.container-signup input[type=email]:focus {
+    background-color: #deebee;
+    outline: none;
+}
+.container-signup h4{
+    font-size: 14.5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    margin-top: 5px;
+}
+.checkbox{
+    margin: 8px;
+    margin-left: -15px;
+    font-size: 13.5px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #585858;
+}  
+.checkbox #signup_check{
+    margin-left: 15px;
+}  
+#signup_check{
+    width: 11px;
+    height: 11px;
+}
+.signup-btn{
+    margin-top: 30px;
+    margin-bottom: 15px;
+    display: inline-block; 
+    background-color: #6CA7BA; 
+    border: none; 
+    border-radius: 8px; 
+    color: white; 
+    font-size: 16px; 
+    height: 28px; 
+    cursor: pointer; 
+    margin-left: 100px;
+    text-decoration: none; 
+    outline: none;
+    padding-left: 22px;
+    padding-right: 22px;
+    font-weight: bold;
+}
+.signup-btn:hover{
+    background-color: #63a0b4;
+}
+.signup-btn:active{
+    background-color: #63a0b4;
+}

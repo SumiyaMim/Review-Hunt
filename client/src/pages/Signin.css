@@ -1,0 +1,96 @@
+body{
+    background-color: rgb(241, 241, 241);
+}
+.container-signin{
+    background-color: rgb(255, 255, 255);
+    width: 320px;
+    padding: 30px;
+    margin: 60px auto;
+    height: 260px;
+}
+.container-signin h2{
+    font-size: 22px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container-signin p{
+    margin-top: 10px;
+    color: #7d7d7d;
+    text-align: center;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.form{
+    background-color: rgb(254, 254, 254);
+    text-align: center;
+}
+.container-signin input[type=password], 
+.container-signin input[type=email]{
+    font-weight: lighter;
+    width: 95%;
+    padding: 7px 8px;
+    margin: 5px 0;
+    display: inline-block;
+    border-style: none;
+    border-radius: 5px;
+    background-color: #EBF3F5;
+}
+.container-signin input[type=password]::placeholder, 
+.container-signin input[type=email]::placeholder{
+    font-size: 13.5px;
+}
+.container-signin input[type=password]:focus, 
+.container-signin input[type=email]:focus {
+    background-color: #deebee;
+    outline: none;
+}  
+.signin-btn{
+    margin-top: 24px;
+    margin-bottom: 15px;
+    display: inline-block; 
+    background-color: #6CA7BA; 
+    border: none; 
+    border-radius: 8px; 
+    color: white; 
+    font-size: 16px; 
+    height: 28px; 
+    cursor: pointer; 
+    margin-left: 108px;
+    text-decoration: none; 
+    outline: none;
+    padding-left: 22px;
+    padding-right: 22px;
+    font-weight: bold;
+}
+.signin-btn:hover{
+    background-color: #63a0b4;
+}
+.signin-btn:active{
+    background-color: #63a0b4;
+}
+.pass-link{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 208px;
+    font-size: 13px;
+    margin-top: 6px;
+}
+.pass-link li{
+    color: #819cac;
+    border: solid transparent;
+}
+.pass-link li:hover{
+    color: #3d5765;
+}
+.create{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin: 60px;
+}
+.create li{
+    text-decoration: underline;
+    color: #5088a8;
+    border: transparent;
+}
+.create li:hover{
+    color: #82a7bd;
+}

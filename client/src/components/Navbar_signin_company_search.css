@@ -1,0 +1,241 @@
+.nav_signin_company_search{
+    height: 65px;
+    width: 100%;
+    background: #6CA7BA;
+}
+.nav_signin_company_search > .nav_logo_signin_company_search{
+    font-family: Arial;
+    font-size: 28px;
+    font-weight: bold;
+    color: white;
+    padding: 0 48px;
+    line-height: 62px;
+}
+.nav_signin_company_search > .nav_items_signin_company_search{
+    display: flex;
+    justify-content: flex-end;
+    width: 68%;
+    margin-top: -45px;
+}
+.nav_signin_company_search > .nav_items_signin_company_search > .items_signin_company_search{
+    font-family: Arial;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border: 1px solid transparent;
+    height: 18px;
+    padding: 4px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.nav_signin_company_search > .nav_items_signin_company_search > .items_signin_company_search:hover{
+    border: 1px solid white;
+    transition: .5s;
+}
+.user_company_search{
+    display: flex;
+    margin-right: -40px;
+}
+.user_company_search img{
+    border: 1.5px solid #D6F3FA;
+    margin-right: 5px;
+}
+.user_company_search .circle_company_search{
+    font-family: Arial;
+    margin-top: -3px;
+    margin-left: 10px;
+    border-radius: 100%;
+    width: 15px;
+    height: 15px;
+    padding: 10px;
+    background: white;
+    color: #000;
+    text-align: center;
+    font-weight: bold;
+    font-size: 15px;
+}
+.user_company_search img{
+    margin-top: -5px;
+    margin-left: 20px;
+    border-radius: 100%; 
+    background-color: #6CA7BA;
+}
+.dropdown_company_search{
+    position: relative;
+    display: inline-block;
+    margin-right: 20px;
+}
+.dropbtn_company_search{
+    background-color: #6CA7BA;
+    color: white;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    width: 145px;
+    height: 65px;
+    text-align: left;
+    margin-top: -17.3px;
+}
+.dropdown_content_company_search{
+    margin-top: 0.5px;
+    display: none;
+    position: absolute;
+    margin-left: -35px;
+    background-color: #6CA7BA;
+    min-width: 180px;
+    height: 142px;
+    text-align: left;
+    z-index: 1;
+}
+.dropdown_content_company_search li{
+    font-family: Arial;
+    font-weight: bold;
+    color: white;
+    padding: 15px 20px;
+    text-decoration: none;
+    font-size: 15px;
+    display: block;
+} 
+.dropdown_content_company_search li:hover{
+    background-color: #e7f7fd;
+    color: black;
+}
+.dropdown_company_search:hover .dropdown_content_company_search{
+    display: block;
+}
+.dropdown_company_search:hover .dropbtn_company_search{
+    background-color: #6CA7BA;
+}
+.search_on_nav_company{
+    position: absolute;
+    top: 16px; 
+    right: 48px; 
+}
+.search_on_nav_company form{
+    background: #91becc;
+    width: 340px;
+    height: 32.5px;
+    border-radius: 8px;
+    display: flex;
+}
+.search_on_nav_company form input{
+    width: 75%;
+    background: #91becc;
+    border: none;
+    outline: none;
+    color: white;
+}
+.search_on_nav_company ::placeholder{
+    color: rgb(255, 255, 255);
+    font-size: 13px;
+}
+.search_on_nav_company form .fa-search{
+    font-size: 11px;
+    align-self: center;
+    padding: 7px 14px;
+    color: rgb(255, 255, 255);
+}
+.menu{
+    color: white;
+    font-size: 20px;
+    float: right;
+    margin-top: 22px;
+    cursor: pointer;
+    margin-right: 20px;
+    display: none;  
+}
+.nav_signin_company_search .nav_items_signin_company_search.show {
+    display: block;
+}
+
+@media (max-width: 768px){
+    .nav_signin_company_search > .nav_items_signin_company_search {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+    .nav_signin_company_search > .nav_items_signin_company_search > .items_signin_company_search {
+        margin-right: 0;
+        margin-bottom: 0;
+    }
+    .nav_signin_company_search .nav_items_signin_company_search.show {
+        display: block;
+    }
+    .menu{
+        display: block;
+    }
+    .nav_signin_company_search .nav_items_signin_company_search{
+        position: absolute;
+        height: 270px;
+        width: 49%;
+        background-color: #6CA7BA;
+        top: 105px;
+        right: 0;
+        text-align: center;
+        transition: all .5s;
+        display: none;
+    }
+    .items_signin_company_search{
+        margin-top: 5%;
+        position: absolute;
+        margin-left: -13%;
+    }
+    .items_signin_company_search:hover{
+        border: none;
+        transition: none;
+    }
+    .nav_signin_company_search .search_on_nav_company{
+        position: absolute;
+        top: 17px;
+        margin-right: 30px;
+    }
+    .user_company_search{
+        margin-top: 13%;
+    }
+    .user_company_search img{
+        position: absolute;
+        margin-top: -15%;
+        margin-left: 18%;
+        display: none;
+    }
+    .dropbtn_company_search{
+        width: 200px;
+        margin: auto 90px;
+        text-align: center;
+        align-items: center;
+        height: 50px;
+    }
+    .dropdown_content_company_search{
+        display: block;
+        margin: auto 100px;
+        margin-top: -1%;
+        text-align: center;
+    }
+    .dropdown_content_company_search li:hover{
+        background-color: #6CA7BA;
+        color: white;
+    }
+}   
+
+@media (max-width: 640px){
+    .nav_signin_company_search .search_on_nav_company{
+        margin-right: 5px;
+    }
+    .nav_signin_company_search .nav_items_signin_company_search{
+        width: 38%;
+    }
+    .items_signin_company_search{
+        margin-left: -20%;
+    }
+    .dropbtn_company_search{
+        margin: auto 25px;
+    }
+    .dropdown_content_company_search{
+        margin: auto 35px;
+    }
+    .user_company_search{
+        margin-top: 18%;
+    }
+}

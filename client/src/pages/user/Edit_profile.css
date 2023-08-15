@@ -1,0 +1,131 @@
+.container_edit_profile{
+    background-color: rgb(255, 255, 255);
+    width: 370px;
+    padding: 30px;
+    margin: 25px auto;
+    height: 570px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container_edit_profile img{
+    border-radius: 100%;
+    margin-left: 130px;
+    border: 3px solid #D6F3FA;
+}
+.container_edit_profile h2{
+    text-align: center;
+}
+.container_edit_profile .logo_upload_add_store{
+    text-align: center;
+    margin-top: -3%;
+}
+.circle_edit_profile{
+    text-align: center;
+}
+.circle1_edit_profile{
+    margin-top: 5px;
+    height: 100px;
+    width: 100px;
+    background-color: #EFF9FC;
+    border-radius: 50%;
+    display: inline-block;
+}
+.content_edit_profile p{
+    font-size: 55px;
+    margin-top: -85px;
+}
+.button_edit_profile{
+    position: relative;
+    padding: 10px 15px;
+    margin-top: 30px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    background-color: #88c1d4;
+    color: white;
+    overflow: hidden;
+}
+.button_edit_profile input[type="file"]{
+    cursor:pointer;
+    position: absolute;
+    left: 0;
+    top: 0;
+    transform: scale(3);
+    opacity: 0;
+}
+.icon_upload{
+    font-style: normal;
+    display: flex;
+}
+.edit_info{
+    text-align: left;
+    font-size: 14.5px;
+}
+.edit_info .info{
+    margin: 10px 0 10px 0;
+}
+.edit_info .info .info_name{
+    margin-bottom: 5px;
+}
+.edit_info input[type=text], input[type=email]{
+    font-weight: lighter;
+    width: 93.5%;
+    padding: 6px 11px;
+    margin: 5px 0;
+    display: inline-block;
+    border-radius: 3px;
+    border: 1px solid grey;
+    background-color: white;
+}
+.edit_info select{
+    font-weight: lighter;
+    width: 100%;
+    padding: 6px 6px;
+    margin: 5px 0;
+    display: inline-block;
+    border-radius: 3px;
+    border: 1px solid grey;
+    background-color: white;
+}
+.edit_info input[type=text]:focus, .edit_info input[type=email]:focus {
+    outline: none;
+}
+.edit_info select:focus{
+    outline: none;
+}
+.save_btn_edit_profile{
+    margin-top: 35px;
+    margin-bottom: 15px;
+    display: inline-block; 
+    background-color: #6CA7BA; 
+    border: none; 
+    border-radius: 8px; 
+    color: white; 
+    font-size: 16px; 
+    height: 28px; 
+    cursor: pointer; 
+    margin-left: 130px;
+    text-decoration: none; 
+    outline: none;
+    padding-left: 22px;
+    padding-right: 22px;
+    font-weight: bold;
+}
+.save_btn_edit_profile:hover{
+    background-color: #63a0b4;
+}
+.save_btn_edit_profile:active{
+    background-color: #63a0b4;
+}
+.change{
+    text-align: center;
+    font-size: 18px;
+    margin: 6px;
+}
+.change li{
+    text-decoration: underline;
+    color: #5088a8;
+    border: transparent;
+}
+.change li:hover{
+    color: #82a7bd;
+}
